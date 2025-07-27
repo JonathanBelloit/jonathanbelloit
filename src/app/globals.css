@@ -1,15 +1,9 @@
 @import "tailwindcss";
 
+/* Global CSS Variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +13,134 @@
   }
 }
 
+/* Next.js default styles */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Your custom portfolio styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Antihero';
+  src: local('Antihero'), url('/fonts/Antihero.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Designer';
+  src: local('Designer'), url('/fonts/Designer.otf') format('truetype');
+}
+
+.about {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-content {
+  position: absolute;
+  width: 950px;
+  height: 100%;
+  top: 15%;
+  padding-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: flex-end;
+  font-family: 'fira sans', sans-serif;
+  letter-spacing: 1rem;
+  font-style: italic;
+  line-height: 3rem;
+}
+
+.profilePic {
+  position: absolute;
+  top: 8vh;
+  right: 9vw;
+  height: auto;
+  width: 30vw;
+}
+
+.hero_img {
+  position: absolute;
+  top: 4vh;
+  right: 3vw;
+  height: auto;
+  width: 60vw;
+  opacity: 0.3;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background-color:rgba(0, 0, 0, 0.89);
+}
+
+h3 {
+  width: 100%;
+  display: flex;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .4rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.headerParagraph {
+  width: 100%;
+  display: flex;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .2rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  line-height: 2rem;
+}
+
+.spacer {
+  aspect-ratio: 960/200;
+  color: '#000000';
+  margin-top: -150px;
+  width: 100wv;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.layer1 {
+  background-image: url('/wave-haikei.svg');
+  width: 100%;
+}
+
+.skillicons {
+  width: 100px;
+  margin: 1vw;
+}
+
+.jsicon {
+  width: 75px;
+}
+
+.cssicon {
+  width: 75px;
 }

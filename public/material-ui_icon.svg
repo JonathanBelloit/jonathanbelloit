@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2499.9999 3452.4323">
+  <g>
+    <path d="m0,1082.4999V0l937.5,541.25v360.8333l-625-360.8333v721.6666L0,1082.4999Z" fill="#00b0ff"/>
+    <path d="m937.5,541.25L1874.9999,0v1082.4999l-625,360.8333-312.5-180.4166,625-360.8333v-360.8333l-625,360.8333v-360.8333Z" fill="#0081cb"/>
+    <path d="m937.5,1262.9166v360.8333l625,360.8333v-360.8333l-625-360.8333Z" fill="#00b0ff"/>
+    <path d="m1562.4999,1984.5832l937.5-541.25v-721.6666l-312.5,180.4167v360.8333l-625,360.8333v360.8332Zm625-1443.3333V180.4167L2499.9999,0v360.8333l-312.5,180.4166Z" fill="#0081cb"/>
+  </g>
+  <text transform="translate(232.4141 2492.4365)" font-family="SourceSansPro-Regular, &apos;Source Sans Pro&apos;" font-size="600"><tspan x="0" y="0">M</tspan><tspan x="436.1938" y="0" letter-spacing="-.014em">at</tspan><tspan x="925.1953" y="0">erial</tspan><tspan x="744.8916" y="720">UI</tspan></text>
+</svg>
