@@ -1,4 +1,6 @@
-export const headerVariants = {
+import { Variants } from "framer-motion";
+
+export const headerVariants: Variants = {
   hidden: { opacity: 0 },
   visible1: { opacity: 1, transition: { delay: 0.3, duration: 1.5 } },
   visible2: { opacity: 1, transition: { delay: 0.5, duration: 1.5 } },

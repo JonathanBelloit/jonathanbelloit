@@ -21,9 +21,8 @@ body {
 }
 
 /* Your custom portfolio styles */
-* {
-  margin: 0;
-  padding: 0;
+/* Avoid overriding Tailwind utilities. Keep only box-sizing here. */
+*, *::before, *::after {
   box-sizing: border-box;
 }
 

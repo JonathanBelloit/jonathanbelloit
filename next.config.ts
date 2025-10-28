@@ -14,10 +14,7 @@ const nextConfig: NextConfig = {
     ];
   },
   
-  // Configure image domains if needed
-  images: {
-    domains: ['localhost'],
-  },
+  // Using local images; remotePatterns/domains not needed at the moment.
 };
 
 export default nextConfig;

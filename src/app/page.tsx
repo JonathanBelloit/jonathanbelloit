@@ -1,5 +1,13 @@
-import PortfolioApp from "../components/PortfolioApp";
+import Hero from "@/components/sections/Hero";
+import ScrollStory from "@/components/sections/ScrollStory";
+import Showcase from "@/components/sections/Showcase";
 
 export default function Home() {
-  return <PortfolioApp />;
+  return (
+    <>
+      <Hero />
+      <ScrollStory />
+      <Showcase />
+    </>
+  );
 }
